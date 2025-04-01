@@ -2,7 +2,7 @@ import { ChangeEvent, FormEvent, useState } from 'react';
 import type { SearchType } from '../../types';
 import { countries } from '../../data/countries';
 import styles from './Form.module.css';
-import Alert from '../../Alert/Alert';
+import Alert from '../Alert/Alert';
 
 type FormProps = {
   fetchWeather: (search: SearchType) => Promise<void>;
